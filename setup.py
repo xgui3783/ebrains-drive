@@ -1,7 +1,6 @@
 from setuptools import setup, find_packages
-from version_query import predict_version_str
 
-__version__ = predict_version_str()
+__version__ = "0.6.1a999"
 
 
 setup(name='ebrains-drive',
